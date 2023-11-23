@@ -1,0 +1,19 @@
+ /* Tanpa Bootstrap */
+.tanpa-bootstrap {
+    border: none;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 3em;
+    background-color: aqua;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.tanpa-bootstrap:hover{
+    background-color: red;
+    color: black;
+    transform: rotateY(2);
+    transition: all .5s;
+}
+
